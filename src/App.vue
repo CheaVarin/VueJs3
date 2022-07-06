@@ -10,7 +10,14 @@
   <!-- <LoginWorld /> -->
   <!-- <SignUpWorld/> -->
   <!-- <ValidationWorld/> -->
-  <FectchDataAPI/>
+  <!-- <FectchDataAPI/> -->
+  <!-- <MethodWorld/> -->
+  <!-- <RefWorld /> -->
+  <!-- <RouteWorld /> -->
+  <router-link to="/">Route</router-link> <br>
+   <router-link to="/hi">FectchDataAPI</router-link>
+
+   <router-view/>
 </template>
 
 <script>
@@ -25,7 +32,10 @@
 // import LoginWorld from './components/LoginWorld.vue'
 // import SignUpWorld from './components/SignUpWorld.vue'
 // import ValidationWorld from './components/ValidationWorld.vue'
-import FectchDataAPI from './components/FectchDataAPI.vue'
+// import FectchDataAPI from './components/FectchDataAPI.vue'
+// import MethodWorld from './components/MethodWorld.vue'
+// import RefWorld from './components/RefWorld.vue'
+// import RouteWorld from './components/RouteWorld.vue'
 
 export default {
   name: 'App',
@@ -41,7 +51,10 @@ export default {
     // LoginWorld,
     // SignUpWorld,
     // ValidationWorld,
-    FectchDataAPI
+    // FectchDataAPI,
+    // MethodWorld,
+    // RefWorld
+    // RouteWorld
   }
 }
 </script>
